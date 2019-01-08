@@ -92,14 +92,14 @@ are added to existing development teams, an issue tracking system is required to
 to create a trail of the completed activity. Issue-tracking software also made a list of the ten most important software engineering
 practices for scientific software developers to use. There are four primary reasons to use issue tracking software rather than informally tracking issues:
 
-+ Issues can be made visible to the entire team
+> + Issues can be made visible to the entire team
 
-+ The ability to prioritize issues is frequently provided Many systems provide the ability to track dependencies between 
+> + The ability to prioritize issues is frequently provided Many systems provide the ability to track dependencies between 
 issues; and
 
-+ The history of issues is searchable for future reference
+> + The history of issues is searchable for future reference
 
-IT2: Issue tracking helps insure that no two groups in a development team are working on the same problem.
+> IT2: Issue tracking helps insure that no two groups in a development team are working on the same problem.
 The dependency tracking feature of issue tracking software also allows a large deliverable to be broken into a set of smaller features that it is dependent upon. This set can then be distributed among various groups so that no two groups are working on the same feature.
 
 
