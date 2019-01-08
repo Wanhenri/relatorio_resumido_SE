@@ -2,7 +2,8 @@
 Destinado para acrescentar pontos interessantes para o mestrado em SE
 
 <p> modelo de Documentação de software</p>
-*http://www.riopomba.ifsudestemg.edu.br/dcc/dcc/materiais/938862718_modelo%20de%20documeto%20de%20software.pdf*
+
+http://www.riopomba.ifsudestemg.edu.br/dcc/dcc/materiais/938862718_modelo%20de%20documeto%20de%20software.pdf
 ---
 
 #### text: Claims about the use of software engineering practices in science: a systematic literature review
