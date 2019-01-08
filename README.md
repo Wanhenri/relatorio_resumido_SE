@@ -1,6 +1,8 @@
 # relatorio_resumido_SE
 Destinado para acrescentar pontos interessantes para o mestrado em SE
 
+<p> modelo de Documentação de software</p>
+*http://www.riopomba.ifsudestemg.edu.br/dcc/dcc/materiais/938862718_modelo%20de%20documeto%20de%20software.pdf*
 ---
 
 #### text: Claims about the use of software engineering practices in science: a systematic literature review
@@ -75,4 +77,28 @@ that is not the original development team. In fact, examinations of the ASCI pro
 required to create documentation leads some developers to conclude hat scientific software developers should be careful about how much
 documentation they create. Furthermore, if the documentation is done to satisfy an external requirement it may not benefit
 the project team. However, one study did find an alternative to performing a separate documentation task and utilized an automatic documentation generator that creates documentation from comments in the project’s source files.
+
+#### Issue tracking
+
+IT1: Issue tracking greatly eases communication between members of a development team.
+
+IT2: Issue tracking helps insure that no two groups in a development team are working on the same problem
+
+> IT1: Issue tracking greatly eases communication between members of a development team. Issue tracking is a useful practice
+for communicating information about discovered bugs and needed functionality between developers. Issue tracking software allows this
+information to be stored and communicated instantly between all members of a development team. When additional remote groups
+are added to existing development teams, an issue tracking system is required to formally record bugs and new requirements as well as
+to create a trail of the completed activity. Issue-tracking software also made a list of the ten most important software engineering
+practices for scientific software developers to use. There are four primary reasons to use issue tracking software rather than informally tracking issues:
+
++ Issues can be made visible to the entire team
+
++ The ability to prioritize issues is frequently provided Many systems provide the ability to track dependencies between 
+issues; and
+
++ The history of issues is searchable for future reference
+
+IT2: Issue tracking helps insure that no two groups in a development team are working on the same problem.
+The dependency tracking feature of issue tracking software also allows a large deliverable to be broken into a set of smaller features that it is dependent upon. This set can then be distributed among various groups so that no two groups are working on the same feature.
+
 
