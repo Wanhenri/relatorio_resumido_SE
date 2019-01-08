@@ -59,12 +59,19 @@ developers treat validation studies as research projects or theses in and of the
 #### Documentation
 
 
-D1: Documentation is a necessary enabler of software quality. Formal documents are important when a project is given to a team
+D1: Documentation is a necessary enabler of software quality
+
+D2: Documentation is becoming more frequently used
+
+D3: Documentation requires a significant investment of work
+
+
+> D1: Documentation is a necessary enabler of software quality. Formal documents are important when a project is given to a team
 that is not the original development team. In fact, examinations of the ASCI program at LANL and Lawrence Livermore National Laboratory (LLNL) suggest that documentation is one of the practices that is essential for scientific software developers to adopt in order to guarantee quality. One benefit is that documentation enables communication between team members as well as providing references for papers, grant authoring, and grant reporting. Documentation is especially vital if scientific software developers wish to use their earlier software as a basis for developing more advanced software.
 
-D2: Documentation is becoming more frequently used. In a more recent study, Nguyen-Hoan et al.conclude, based on the result of a survey with 60 respondents, that documentation is more widely produced than is indicated in these early studies. The responses to their summary are given in... Nguyen-Hoan et al. also gave the three most common arguments in favor of producing comments as well as the four most common reasons for not producing comments. The comments in favor were: (1) “For users of the software”, (2) “For future maintenance purposes”, and (3) “Documentation is integral to software.” The arguments against documentationwere: (1) “Limited due to time and effort required”, (2) “Effort not worth it due to small user base”, (3) “requirements constantly changing or not specified up front,” and (4) “Software should be or is ‘intuitive’, ‘easy to understand’, or ‘doesn’t need a full description’
+> D2: Documentation is becoming more frequently used. In a more recent study, Nguyen-Hoan et al.conclude, based on the result of a survey with 60 respondents, that documentation is more widely produced than is indicated in these early studies. The responses to their summary are given in... Nguyen-Hoan et al. also gave the three most common arguments in favor of producing comments as well as the four most common reasons for not producing comments. The comments in favor were: (1) “For users of the software”, (2) “For future maintenance purposes”, and (3) “Documentation is integral to software.” The arguments against documentationwere: (1) “Limited due to time and effort required”, (2) “Effort not worth it due to small user base”, (3) “requirements constantly changing or not specified up front,” and (4) “Software should be or is ‘intuitive’, ‘easy to understand’, or ‘doesn’t need a full description’
 
-D3: Documentation requires a significant investment of work. Not all of the claims about documentation were positive. The effort
+> D3: Documentation requires a significant investment of work. Not all of the claims about documentation were positive. The effort
 required to create documentation leads some developers to conclude hat scientific software developers should be careful about how much
 documentation they create. Furthermore, if the documentation is done to satisfy an external requirement it may not benefit
 the project team. However, one study did find an alternative to performing a separate documentation task and utilized an automatic documentation generator that creates documentation from comments in the project’s source files.
