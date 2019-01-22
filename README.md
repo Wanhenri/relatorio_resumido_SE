@@ -112,3 +112,25 @@ issues; and
 The dependency tracking feature of issue tracking software also allows a large deliverable to be broken into a set of smaller features that it is dependent upon. This set can then be distributed among various groups so that no two groups are working on the same feature.
 
 
+#### Version control
+
+VC1: Version control software is necessary for research groups with more than one developer
+
+VC2: Distributed version control is particularly useful for scientific software development
+
+
+ > VC1: Version control software is necessary for research groups with more than one developer.
+Version control tools are needed to keep up with changes to software that can accumulate extremely rapidly. Version control tools allow a developer to track each new version of a piece of code that is created and identify changes between versions.
+Versions of software that are used to publish results, support major decisions, or undergo extreme testing are the most important to track. In addition, the developer needs to maintain a complete copy of any software used to produce important results. An example of
+why the need to keep a copy of the software is important is a case where a researcher tried to reproduce results that she had produced
+the previous year. Because the researcher did not have access to the old versions of the data she needed, she had to spend a considerable amount of time reproducing the input data. In one case, even though she had the data, the results were significantly different from the previous run. In this case, the executable for the first test had been built using different compiler options. 
+In addition to utilizing version control systems, it is useful to have a formal process to approve code that is to be checked into the repository. This process would ensure that a piece of code passes all relevant test cases instead of relying on individual developers to perform these tests.
+
+VC2: Distributed Version Control is particularly useful for scientific software development. There are two major types of version
+control systems: centralized and distributed. In a centralized system, a single server stores the master copy of the entire project; meaning that if the server goes down or the network becomes unavailable, no one can submit work on the project. Also, if the server’s data is lost, the entire project is lost as well. An alternative is to use a distributed version control system instead. In this implementation, each user has a full copy of the entire project on their machine which is updated to match other copies as connections to the other nodes in the network are available. The primary problem with distributed version control systems is that they are complicated to manage, requiring a strategy for sharing modifications and synchronizing local copies.One instance of distributed version control is “The Abinit forge”, a custom version control system built on Bazaar–a distributed version control system and an ssh-server. Each Abinit developer has a Bazaar repository that stores their branches of their software, providing fast data access and somewhat optimized usage of disk space. A daily script makes all contributions to a project available through a password-protected website which allows the developer to share his work with others and organize collaborative developments involving remote workplaces. Other tools in common use are: Revision Control System and Concurrent Version System, the latter of which can be utilized from within the Eclipse IDE to ease the overhead required by adopting the tool.
+
+### Conclusões tiradas da leitura do paper
+
+---
+
+Com base no que foi abordado durante o paper **Claims about the use of software engineering practices in science: a systematic literature review**, podemos salientar alguns aspectos interessantes que possa ser útil na elaboração de um mestrado futuro. No quesito de teste de softwares cientificos, alguns dos entrevistados mencionou a falta de apoio da gestão, no tocante de garantir a qualidade dos testes e mostrar a eficiencia de sua aplicação, levando em conta se os resultados apresentados são confiáveis para comparação com um modelo padrão. Uma boa pratica apresentada pelo paper foi a de criar um metodologia de testes para evitar bugs no decorrer da elaboração do código, é desenvolver uma construção regular e automatizada para testar seu código regularmente, evitando assim a espera do produto final para assim realizar os testes. Dois métodos foram citados no paper: testes de regressão e testes de integração, onde foi citado que os cientistas utilizam muito o teste de integração. apresentando o seguinte exemplo: "os cientistas o tratam como um novo experimento e o testam, usando os resultados anteriores como um controle."
