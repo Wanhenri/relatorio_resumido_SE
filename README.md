@@ -143,3 +143,6 @@ Com base no que foi coletado do paper, a documentação é um facilitador na hor
 O quesito de Acompanhamento de problemas, é uma forma bem eficaz de garantir a qualidade final do produto e uma comunicação bem eficiente entre os membros da equipe, afim de efetuar uma boa entrega do produto.
 
 As ferramentas de versionamento são essenciais para o acompanhamento das atividades e alterações feitas no software, permitindo que possa ser feito o rastreamento de novas versões geradas pelo grupo de desenvolvedores.
+
+O paper conclui que as praticas de Verificação, Validação e teste são pouco adotadas pelos desenvolvedores de software cientificos, devido a falta de dominio de boas praticas e falta de treinamento das metodologias de verificação, validação e teste de software, conhecimento esse que os Engenheiros de Software possui; um outro problema que dificulta na realização dessas tarefas é a falta de dado para a realização das atividades, dado que muitos dos dados do software cientificos são retirados do mundo exterior, no exemplo de condições iniciais de tempo e clima.
+Logo, é preciso a busca de conhecimento de tais métodos para uma melhor pratica dessas atividades.
