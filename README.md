@@ -61,6 +61,15 @@ developers treat validation studies as research projects or theses in and of the
 
 #### Documentation
 
+<p> Documentation produced by developers</p>
+ 
++ +/- 84% Code Comments
++ 70% User Manuals/Guides
++ 50% Installation Guides
++ +/- 45% Theory/Algorithm Descriptions
++ +/- 45% Test Results
++ 40% Design Documentation
++ 30% Requirements Documentation
 
 D1: Documentation is a necessary enabler of software quality
 
