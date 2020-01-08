@@ -16,3 +16,4 @@ Destinado para acrescentar pontos interessantes para o mestrado em SE
 
 #### text: Climate Change: A grand Software Challenge
 
+- http://mtc-m16d.sid.inpe.br/col/sid.inpe.br/mtc-m19/2013/04.16.19.46/doc/publicacao.pdf
